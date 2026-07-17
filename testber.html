@@ -1,0 +1,422 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swami Vivekanandar tnpsc Coaching Centre - Group 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap');
+     
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #e6f0ff 0%, #c2d6ff 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+     
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+     
+        header {
+            background: linear-gradient(90deg, #c8102e 0%, #ff1f75 100%);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+            position: relative;
+        }
+        .vivekananda-face {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+     
+        h1{
+            font-family:'Playfair Display',serif;
+            font-size:3rem;
+            color:white;
+            text-shadow:2px 2px 6px rgba(0,0,0,.45);
+            margin:15px 0 10px;
+        }
+        h2{
+            color:white;
+            font-size:1.8rem;
+        }
+        .subtitle{
+            color:#f8f8f8;
+            font-size:1.2rem;
+        }
+     
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+     
+        th {
+            background: #003087;
+            color: white;
+            padding: 18px 12px;
+            text-align: left;
+        }
+     
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+            position: relative;
+        }
+     
+        tr:nth-child(even) {
+            background-color: #f8fbff;
+        }
+     
+        tr:hover {
+            background-color: #e6f0ff;
+            transition: background 0.3s ease;
+        }
+     
+        .sno { font-weight: bold; color: #003087; width: 70px; }
+        .date { font-weight: 500; color: #444; width: 180px; }
+        .day { font-weight: 500; color: #0052cc; width: 120px; }
+     
+        .weekly-test {
+            background: linear-gradient(90deg, #003087, #0052cc);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .holiday {
+            background: linear-gradient(90deg, #ff9800, #f57c00);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+     
+        .footer {
+            text-align: center;
+            padding: 25px;
+            background: #f0f5ff;
+            color: #003087;
+            font-size: 0.95rem;
+        }
+     
+        .motivation {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: #003087;
+            text-align: center;
+            padding: 30px 20px 10px;
+            font-style: italic;
+            border-top: 3px solid #c2d6ff;
+            position: relative;
+        }
+        .signature {
+            text-align: right;
+            margin-top: 15px;
+            margin-right: 40px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: #003087;
+            font-style: italic;
+        }
+        .section-heading {
+            background: linear-gradient(90deg, #003087, #0052cc);
+            color: white;
+            padding: 15px 14px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .sub-section {
+            background: linear-gradient(90deg, #006400, #228B22);
+            color: white;
+            padding: 12px 14px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 8px 0;
+        }
+
+        /* THERINTHUKOLVOM Button - Right aligned */
+        .therinthukolvom {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            padding: 6px 14px;
+            background: linear-gradient(90deg, #006400, #228B22);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            font-weight: bold;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(0, 100, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        .therinthukolvom:hover {
+            background: linear-gradient(90deg, #228B22, #006400);
+            transform: translateY(-50%) scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 100, 0, 0.4);
+        }
+
+        .topic-cell {
+            padding-right: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+           <img src="https://raw.githubusercontent.com/knaveen9th-cyber/Psiv/c90aec886ee2035cb66ee1b3ecb9c833c517a916/IMG_20260712_213816.jpg"
+                class="vivekananda-face"
+                alt="Swami Vivekananda">
+            <h1>Swami Vivekanandar tnpsc Coaching Centre</h1>
+            <h2>TNPSC Group 4 Study Time Table</h2>
+            <div class="subtitle">July 2026 - December 2026</div>
+        </header>
+        <div class="motivation">
+            “எழுந்திருங்கள்! விழித்திருங்கள்! இலட்சியத்தை அடையும் வரை ஓயாதீர்கள்!”<br>
+            — சுவாமி விவேகானந்தர்
+            <div class="signature">
+                — Swami Vivekananda ✍️
+            </div>
+        </div>
+     
+        <!-- Daily Mandatory Tasks -->
+        <div style="margin:20px; padding:20px; background:#fff8e1; border:3px solid #003087; border-radius:12px;">
+            <h2 style="text-align:center; color:#003087; margin-top:0;">
+                📚 Daily Mandatory Tasks (Except Sundays & Government Holidays)
+            </h2>
+            <table style="width:100%; border-collapse:collapse;">
+                <tr style="background:#003087; color:white;">
+                    <th style="padding:12px;">Priority</th>
+                    <th style="padding:12px;">Daily Activity</th>
+                </tr>
+                <tr>
+                    <td style="padding:12px; font-weight:bold; color:red;">⭐ Most Important</td>
+                    <td style="padding:12px;">தினம் ஒரு திருக்குறள்</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px; font-weight:bold; color:red;">⭐ Most Important</td>
+                    <td style="padding:12px;">தினம் ஒரு வருடம்</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px; font-weight:bold; color:red;">⭐ Most Important</td>
+                    <td style="padding:12px;">6–10 (தமிழ், அறிவியல், சமூக அறிவியல் மற்றும் பொருளாதாரம் புத்தகப் பின் வினாக்கள்)</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px; font-weight:bold; color:#006400;">✔ Important</td>
+                    <td style="padding:12px;">தினம் ஒரு பொது அறிவு மற்றும் OLD TNPSC தேர்வு வினாக்கள்</td>
+                </tr>
+            </table>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Date</th>
+                    <th>Day</th>
+                    <th>Topic / Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Original Topics -->
+                <tr><td class="sno">1</td><td class="date">20 July 2026</td><td class="day">Monday</td><td class="topic-cell">📖 1. நாலடியார் <a href="https://www.google.com/search?q=நாலடியார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">2</td><td class="date">21 July 2026</td><td class="day">Tuesday</td><td class="topic-cell">📖 2. நான்மணிக்கடிகை <a href="https://www.google.com/search?q=நான்மணிக்கடிகை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">3</td><td class="date">22 July 2026</td><td class="day">Wednesday</td><td class="topic-cell">📖 3. பழமொழி நானூறு <a href="https://www.google.com/search?q=பழமொழி நானூறு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">4</td><td class="date">23 July 2026</td><td class="day">Thursday</td><td class="topic-cell">📖 4. முதுமொழிக்காஞ்சி <a href="https://www.google.com/search?q=முதுமொழிக்காஞ்சி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">5</td><td class="date">24 July 2026</td><td class="day">Friday</td><td class="topic-cell">📖 5. திரிகடுகம் <a href="https://www.google.com/search?q=திரிகடுகம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">6</td><td class="date">25 July 2026</td><td class="day">Saturday</td><td class="topic-cell">📖 6. இன்னநூற்பது <a href="https://www.google.com/search?q=இன்னநூற்பது" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">7</td><td class="date">26 July 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">8</td><td class="date">27 July 2026</td><td class="day">Monday</td><td class="topic-cell">📖 7. சிறுபஞ்சமூலம் <a href="https://www.google.com/search?q=சிறுபஞ்சமூலம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">9</td><td class="date">28 July 2026</td><td class="day">Tuesday</td><td class="topic-cell">📖 8. எலாதி <a href="https://www.google.com/search?q=எலாதி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">10</td><td class="date">29 July 2026</td><td class="day">Wednesday</td><td class="topic-cell">📖 9. ஔவையார் பாடல்கள் <a href="https://www.google.com/search?q=ஔவையார் பாடல்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">11</td><td class="date">30 July 2026</td><td class="day">Thursday</td><td class="topic-cell">🪔 10. வள்ளலார் ராமலிங்க அடிகளார் <a href="https://www.google.com/search?q=வள்ளலார் ராமலிங்க அடிகளார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">12</td><td class="date">31 July 2026</td><td class="day">Friday</td><td class="topic-cell">👤 11. அம்பேத்கர் <a href="https://www.google.com/search?q=அம்பேத்கர்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">13</td><td class="date">01 August 2026</td><td class="day">Saturday</td><td class="topic-cell">👤 12. காமராஜர் <a href="https://www.google.com/search?q=காமராஜர்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">14</td><td class="date">02 August 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">15</td><td class="date">03 August 2026</td><td class="day">Monday</td><td class="topic-cell">👤 13. பெரியார் <a href="https://www.google.com/search?q=பெரியார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">16</td><td class="date">04 August 2026</td><td class="day">Tuesday</td><td class="topic-cell">🌹 14. ஜவஹர்லால் நேரு <a href="https://www.google.com/search?q=ஜவஹர்லால் நேரு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">17</td><td class="date">05 August 2026</td><td class="day">Wednesday</td><td class="topic-cell">👤 15. மூவலூர் ராமாமிர்தம் அம்மையார் <a href="https://www.google.com/search?q=மூவலூர் ராமாமிர்தம் அம்மையார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">18</td><td class="date">06 August 2026</td><td class="day">Thursday</td><td class="topic-cell">👤 16. முத்துலட்சுமி அம்மையார் <a href="https://www.google.com/search?q=முத்துலட்சுமி அம்மையார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">19</td><td class="date">07 August 2026</td><td class="day">Friday</td><td class="topic-cell">🕉️ 17. மகாத்மா காந்தி <a href="https://www.google.com/search?q=மகாத்மா காந்தி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">20</td><td class="date">08 August 2026</td><td class="day">Saturday</td><td class="topic-cell">🗡️ 18. வேலு நாச்சியார் <a href="https://www.google.com/search?q=வேலு நாச்சியார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">21</td><td class="date">09 August 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">22</td><td class="date">10 August 2026</td><td class="day">Monday</td><td class="topic-cell">🖋️ 19. பாவேந்தர் பாரதிதாசன் <a href="https://www.google.com/search?q=பாவேந்தர் பாரதிதாசன்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">23</td><td class="date">11 August 2026</td><td class="day">Tuesday</td><td class="topic-cell">📜 20. கண்ணதாசன் <a href="https://www.google.com/search?q=கண்ணதாசன்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">24</td><td class="date">12 August 2026</td><td class="day">Wednesday</td><td class="topic-cell">📖 21. காயிதே மில்லத் <a href="https://www.google.com/search?q=காயிதே மில்லத்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">25</td><td class="date">13 August 2026</td><td class="day">Thursday</td><td class="topic-cell">🖋️ 22. தாராபாரதி <a href="https://www.google.com/search?q=தாராபாரதி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">26</td><td class="date">14 August 2026</td><td class="day">Friday</td><td class="topic-cell">🎤 23. பட்டுக்கோட்டை கல்யாணசுந்தரம் <a href="https://www.google.com/search?q=பட்டுக்கோட்டை கல்யாணசுந்தரம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">27</td><td class="date">15 August 2026</td><td class="day">Saturday</td><td class="topic-cell">🏔️ 24. முடியரசன் <a href="https://www.google.com/search?q=முடியரசன்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">28</td><td class="date">16 August 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">29</td><td class="date">17 August 2026</td><td class="day">Monday</td><td class="topic-cell">🏔️ 25. நாமக்கல் கவிஞர் <a href="https://www.google.com/search?q=நாமக்கல் கவிஞர்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">30</td><td class="date">18 August 2026</td><td class="day">Tuesday</td><td class="topic-cell">🌳 26. உறுத்திரங்கண்ணனர் <a href="https://www.google.com/search?q=உறுத்திரங்கண்ணனர்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">31</td><td class="date">19 August 2026</td><td class="day">Wednesday</td><td class="topic-cell">🪔 27. தவத்திரு குன்றக்குடி அடிகளார் <a href="https://www.google.com/search?q=தவத்திரு குன்றக்குடி அடிகளார்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">32</td><td class="date">20 August 2026</td><td class="day">Thursday</td><td class="topic-cell">⚖️ 28. டி.கே. சிதம்பரநாதர் <a href="https://www.google.com/search?q=டி.கே. சிதம்பரநாதர்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">33</td><td class="date">21 August 2026</td><td class="day">Friday</td><td class="topic-cell">🔥 29. தமிழ் ஒளி <a href="https://www.google.com/search?q=தமிழ் ஒளி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">34</td><td class="date">22 August 2026</td><td class="day">Saturday</td><td class="topic-cell">🌍 30. குரிய குடும்பம் <a href="https://www.google.com/search?q=குரிய குடும்பம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">35</td><td class="date">23 August 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">36</td><td class="date">24 August 2026</td><td class="day">Monday</td><td class="topic-cell">🇮🇳 31. இந்திய அடிப்படை தகவல்கள் <a href="https://www.google.com/search?q=இந்திய அடிப்படை தகவல்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">37</td><td class="date">25 August 2026</td><td class="day">Tuesday</td><td class="topic-cell">🇮🇳 32. தமிழ்நாடு அடிப்படை தகவல்கள் <a href="https://www.google.com/search?q=தமிழ்நாடு அடிப்படை தகவல்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">38</td><td class="date">26 August 2026</td><td class="day">Wednesday</td><td class="topic-cell">👥 33. இந்தியாவில் முதல் தலைவர்கள் <a href="https://www.google.com/search?q=இந்தியாவில் முதல் தலைவர்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">39</td><td class="date">27 August 2026</td><td class="day">Thursday</td><td class="topic-cell">👩 34. இந்தியாவின் முதல் பெண்கள் <a href="https://www.google.com/search?q=இந்தியாவின் முதல் பெண்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">40</td><td class="date">28 August 2026</td><td class="day">Friday</td><td class="topic-cell">🏙️ 35. இந்திய நகரங்களின் சிறப்பு பெயர்கள் <a href="https://www.google.com/search?q=இந்திய நகரங்களின் சிறப்பு பெயர்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">41</td><td class="date">29 August 2026</td><td class="day">Saturday</td><td class="topic-cell">🛕 36. தலைவர்களின் சமாதிகள் <a href="https://www.google.com/search?q=தலைவர்களின் சமாதிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">42</td><td class="date">30 August 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">43</td><td class="date">31 August 2026</td><td class="day">Monday</td><td class="topic-cell">💃 37. இந்தியாவின் பாரம்பரிய நடனங்கள் <a href="https://www.google.com/search?q=இந்தியாவின் பாரம்பரிய நடனங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">44</td><td class="date">01 September 2026</td><td class="day">Tuesday</td><td class="topic-cell">🏛️ 38. தமிழ்நாட்டின் முதன்மைகள் <a href="https://www.google.com/search?q=தமிழ்நாட்டின் முதன்மைகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">45</td><td class="date">02 September 2026</td><td class="day">Wednesday</td><td class="topic-cell">🌍 39. உலகின் பெரிய, நீளமான, உயரமான, அகலமான குறிப்புகள் <a href="https://www.google.com/search?q=உலகின் பெரிய, நீளமான, உயரமான, அகலமான குறிப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">46</td><td class="date">03 September 2026</td><td class="day">Thursday</td><td class="topic-cell">🌐 40. சர்வதேச எல்லைகள் <a href="https://www.google.com/search?q=சர்வதேச எல்லைகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">47</td><td class="date">04 September 2026</td><td class="day">Friday</td><td class="topic-cell">🏅 41. விருதுகள் <a href="https://www.google.com/search?q=விருதுகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">48</td><td class="date">05 September 2026</td><td class="day">Saturday</td><td class="topic-cell">🏸 42. இந்திய விண்வெளித் துறை <a href="https://www.google.com/search?q=இந்திய விண்வெளித் துறை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">49</td><td class="date">06 September 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">50</td><td class="date">07 September 2026</td><td class="day">Monday</td><td class="topic-cell">📅 43. தந்தைகள் <a href="https://www.google.com/search?q=தந்தைகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">51</td><td class="date">08 September 2026</td><td class="day">Tuesday</td><td class="topic-cell">📆 44. முக்கிய தினங்கள் <a href="https://www.google.com/search?q=முக்கிய தினங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">52</td><td class="date">09 September 2026</td><td class="day">Wednesday</td><td class="topic-cell">📊 45. ஐந்தாண்டு திட்டங்கள் <a href="https://www.google.com/search?q=ஐந்தாண்டு திட்டங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">53</td><td class="date">10 September 2026</td><td class="day">Thursday</td><td class="topic-cell">🇮🇳 46. விடுதலைப் போராட்டத்தில் தமிழ்நாட்டின் பங்கு <a href="https://www.google.com/search?q=விடுதலைப் போராட்டத்தில் தமிழ்நாட்டின் பங்கு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">54</td><td class="date">11 September 2026</td><td class="day">Friday</td><td class="topic-cell">👩‍💼 47. ஆங்கிலேயருக்கு எதிரான தொடக்ககால கிளர்ச்சிகள் <a href="https://www.google.com/search?q=ஆங்கிலேயருக்கு எதிரான தொடக்ககால கிளர்ச்சிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">55</td><td class="date">12 September 2026</td><td class="day">Saturday</td><td class="topic-cell">👩 48. விடுதலைப் போராட்டத்தில் பெண்களின் பங்கு <a href="https://www.google.com/search?q=விடுதலைப் போராட்டத்தில் பெண்களின் பங்கு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">56</td><td class="date">13 September 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">57</td><td class="date">14 September 2026</td><td class="day">Monday</td><td class="topic holiday">🪔 Vinayagar Chathurthi Holiday</td></tr>
+                <tr><td class="sno">58</td><td class="date">15 September 2026</td><td class="day">Tuesday</td><td class="topic-cell">🏦 49. இந்திய ரிசர்வ் வங்கி <a href="https://www.google.com/search?q=இந்திய ரிசர்வ் வங்கி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">59</td><td class="date">16 September 2026</td><td class="day">Wednesday</td><td class="topic-cell">📊 50. நிதி ஆணையம் <a href="https://www.google.com/search?q=நிதி ஆணையம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">60</td><td class="date">17 September 2026</td><td class="day">Thursday</td><td class="topic-cell">💰 51. சரக்கு மற்றும் சேவை வரி (GST) <a href="https://www.google.com/search?q=சரக்கு மற்றும் சேவை வரி (GST)" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">61</td><td class="date">18 September 2026</td><td class="day">Friday</td><td class="topic-cell">🏠 52. ஊரக நலன் சார்ந்த திட்டங்கள் <a href="https://www.google.com/search?q=ஊரக நலன் சார்ந்த திட்டங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">62</td><td class="date">19 September 2026</td><td class="day">Saturday</td><td class="topic-cell">🏭 53. தொழில் வளர்ச்சி <a href="https://www.google.com/search?q=தொழில் வளர்ச்சி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">63</td><td class="date">20 September 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">64</td><td class="date">21 September 2026</td><td class="day">Monday</td><td class="topic-cell">🌾 54. நிலச் சீர்திருத்தங்கள் மற்றும் வேளாண்மை <a href="https://www.google.com/search?q=நிலச் சீர்திருத்தங்கள் மற்றும் வேளாண்மை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">65</td><td class="date">22 September 2026</td><td class="day">Tuesday</td><td class="topic-cell">📊 55. திட்டக்குழு மற்றும் நிதி ஆயோக் வருவாய் ஆதாரங்கள் <a href="https://www.google.com/search?q=திட்டக்குழு மற்றும் நிதி ஆயோக் வருவாய் ஆதாரங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">66</td><td class="date">23 September 2026</td><td class="day">Wednesday</td><td class="topic-cell">👥 56. தமிழ்நாட்டின் பல்வேறு சீர்திருத்தவாதிகள் <a href="https://www.google.com/search?q=தமிழ்நாட்டின் பல்வேறு சீர்திருத்தவாதிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">67</td><td class="date">24 September 2026</td><td class="day">Thursday</td><td class="topic-cell">🔄 57. சீர்திருத்த இயக்கங்கள் மற்றும் மாற்றங்கள் <a href="https://www.google.com/search?q=சீர்திருத்த இயக்கங்கள் மற்றும் மாற்றங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">68</td><td class="date">25 September 2026</td><td class="day">Friday</td><td class="topic-cell">📖 58. திருக்குறளின் தத்துவக் கோட்பாடுகள் <a href="https://www.google.com/search?q=திருக்குறளின் தத்துவக் கோட்பாடுகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">69</td><td class="date">26 September 2026</td><td class="day">Saturday</td><td class="topic-cell">🏺 59. தமிழ் சமுதாய வரலாறு மற்றும் அதனுடன் தொடர்புடைய தொல்லியல் கண்டுபிடிப்புகள் <a href="https://www.google.com/search?q=தமிழ் சமுதாய வரலாறு மற்றும் அதனுடன் தொடர்புடைய தொல்லியல் கண்டுபிடிப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">70</td><td class="date">27 September 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+
+                <!-- Science Section -->
+                <tr><td colspan="4" class="section-heading">🔬 அறிவியல் பாடத்திட்டம் (1-46)</td></tr>
+                
+                <!-- Physics -->
+                <tr><td colspan="4" class="sub-section">⚡ இயற்பியல் (Iyarpiyal)</td></tr>
+                <tr><td class="sno">71</td><td class="date">28 September 2026</td><td class="day">Monday</td><td class="topic-cell">⚡ 1. பொது அறிவியல் விதிகள் <a href="https://www.google.com/search?q=பொது அறிவியல் விதிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">72</td><td class="date">29 September 2026</td><td class="day">Tuesday</td><td class="topic-cell">📏 2. அளவீட்டியல் <a href="https://www.google.com/search?q=அளவீட்டியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">73</td><td class="date">30 September 2026</td><td class="day">Wednesday</td><td class="topic-cell">⚙️ 3. இயக்கவியல் <a href="https://www.google.com/search?q=இயக்கவியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">74</td><td class="date">01 October 2026</td><td class="day">Thursday</td><td class="topic-cell">🌡️ 4. வெப்பவியல் <a href="https://www.google.com/search?q=வெப்பவியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">75</td><td class="date">02 October 2026</td><td class="day">Friday</td><td class="topic-cell">🔦 5. ஒளியியல் <a href="https://www.google.com/search?q=ஒளியியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">76</td><td class="date">03 October 2026</td><td class="day">Saturday</td><td class="topic-cell">🔊 6. ஒலியியல் <a href="https://www.google.com/search?q=ஒலியியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">77</td><td class="date">04 October 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+                <tr><td class="sno">78</td><td class="date">05 October 2026</td><td class="day">Monday</td><td class="topic-cell">⚡ 7. மின்னோட்டவியல் <a href="https://www.google.com/search?q=மின்னோட்டவியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">79</td><td class="date">06 October 2026</td><td class="day">Tuesday</td><td class="topic-cell">🧲 8. காந்தவியல் <a href="https://www.google.com/search?q=காந்தவியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">80</td><td class="date">07 October 2026</td><td class="day">Wednesday</td><td class="topic-cell">⚛️ 9. அணுக்கரு இயற்பியல் <a href="https://www.google.com/search?q=அணுக்கரு இயற்பியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">81</td><td class="date">08 October 2026</td><td class="day">Thursday</td><td class="topic-cell">🔍 10. கண்டுபிடிப்புகள் <a href="https://www.google.com/search?q=கண்டுபிடிப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">82</td><td class="date">09 October 2026</td><td class="day">Friday</td><td class="topic-cell">🛠️ 11. கருவிகள் <a href="https://www.google.com/search?q=கருவிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">83</td><td class="date">10 October 2026</td><td class="day">Saturday</td><td class="topic-cell">🔢 12. மாறிலிகள் <a href="https://www.google.com/search?q=மாறிலிகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">84</td><td class="date">11 October 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+
+                <!-- Chemistry -->
+                <tr><td colspan="4" class="sub-section">🧪 வேதியியல் (Vethiyal)</td></tr>
+                <tr><td class="sno">85</td><td class="date">12 October 2026</td><td class="day">Monday</td><td class="topic-cell">🧪 13. நம்மைச் சுற்றியுள்ள பருப்பொருள்கள் <a href="https://www.google.com/search?q=நம்மைச் சுற்றியுள்ள பருப்பொருள்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">86</td><td class="date">13 October 2026</td><td class="day">Tuesday</td><td class="topic-cell">⚛️ 14. அணு அமைப்பு <a href="https://www.google.com/search?q=அணு அமைப்பு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">87</td><td class="date">14 October 2026</td><td class="day">Wednesday</td><td class="topic-cell">📋 15. ஆவர்த்தன அட்டவணை <a href="https://www.google.com/search?q=ஆவர்த்தன அட்டவணை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">88</td><td class="date">15 October 2026</td><td class="day">Thursday</td><td class="topic-cell">🔗 16. வேதிப்பிணைப்பு <a href="https://www.google.com/search?q=வேதிப்பிணைப்பு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">89</td><td class="date">16 October 2026</td><td class="day">Friday</td><td class="topic-cell">🏗️ 17. உலோகவியல் <a href="https://www.google.com/search?q=உலோகவியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">90</td><td class="date">17 October 2026</td><td class="day">Saturday</td><td class="topic-cell">🧪 18. தனிமங்கள் மற்றும் சேர்மங்கள் <a href="https://www.google.com/search?q=தனிமங்கள் மற்றும் சேர்மங்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">91</td><td class="date">18 October 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+                <tr><td class="sno">92</td><td class="date">19 October 2026</td><td class="day">Monday</td><td class="topic-cell">⚗️ 19. கலவைகள் <a href="https://www.google.com/search?q=கலவைகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">93</td><td class="date">21 October 2026</td><td class="day">Wednesday</td><td class="topic-cell">🧪 20. கரைசல்கள் <a href="https://www.google.com/search?q=கரைசல்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">94</td><td class="date">22 October 2026</td><td class="day">Thursday</td><td class="topic-cell">⚖️ 21. அமிலம், காரம், உப்புகள் <a href="https://www.google.com/search?q=அமிலம், காரம், உப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">95</td><td class="date">23 October 2026</td><td class="day">Friday</td><td class="topic-cell">⚛️ 22. கார்பன் <a href="https://www.google.com/search?q=கார்பன்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">96</td><td class="date">24 October 2026</td><td class="day">Saturday</td><td class="topic-cell">🧼 23. சோப்பு, டிடர்ஜென்ட் <a href="https://www.google.com/search?q=சோப்பு, டிடர்ஜென்ட்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">97</td><td class="date">25 October 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+                <tr><td class="sno">98</td><td class="date">26 October 2026</td><td class="day">Monday</td><td class="topic-cell">⛽ 24. பெட்ரோலியப் பொருட்கள் <a href="https://www.google.com/search?q=பெட்ரோலியப் பொருட்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">99</td><td class="date">27 October 2026</td><td class="day">Tuesday</td><td class="topic-cell">🌾 25. உரங்கள், பூச்சிக்கொல்லிகள், களைக்கொல்லி <a href="https://www.google.com/search?q=உரங்கள், பூச்சிக்கொல்லிகள், களைக்கொல்லி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">100</td><td class="date">28 October 2026</td><td class="day">Wednesday</td><td class="topic-cell">🧪 26. அன்றாட வாழ்வில் வேதியியல் <a href="https://www.google.com/search?q=அன்றாட வாழ்வில் வேதியியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">101</td><td class="date">29 October 2026</td><td class="day">Thursday</td><td class="topic-cell">📊 27. பயன்பாட்டு வேதியியல் <a href="https://www.google.com/search?q=பயன்பாட்டு வேதியியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">102</td><td class="date">30 October 2026</td><td class="day">Friday</td><td class="topic-cell">📝 28. இதர குறிப்புகள் <a href="https://www.google.com/search?q=இதர குறிப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+
+                <!-- Botany -->
+                <tr><td colspan="4" class="sub-section">🌱 தாவரவியல் (Thaavaraviyal)</td></tr>
+                <tr><td class="sno">103</td><td class="date">31 October 2026</td><td class="day">Saturday</td><td class="topic-cell">🌱 29. உயிரி உலகம் <a href="https://www.google.com/search?q=உயிரி உலகம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">104</td><td class="date">01 November 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+                <tr><td class="sno">105</td><td class="date">02 November 2026</td><td class="day">Monday</td><td class="topic-cell">🌳 30. தாவர உலகம் <a href="https://www.google.com/search?q=தாவர உலகம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">106</td><td class="date">03 November 2026</td><td class="day">Tuesday</td><td class="topic-cell">🌿 31. தாவர செயலியல் <a href="https://www.google.com/search?q=தாவர செயலியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">107</td><td class="date">04 November 2026</td><td class="day">Wednesday</td><td class="topic-cell">🌸 32. தாவர ஹார்மோன்கள் <a href="https://www.google.com/search?q=தாவர ஹார்மோன்கள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">108</td><td class="date">05 November 2026</td><td class="day">Thursday</td><td class="topic-cell">🍃 33. தாவர உள்ளமைப்பியல் <a href="https://www.google.com/search?q=தாவர உள்ளமைப்பியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">109</td><td class="date">06 November 2026</td><td class="day">Friday</td><td class="topic-cell">💧 34. தாவரங்களில் கடத்துதல் <a href="https://www.google.com/search?q=தாவரங்களில் கடத்துதல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">110</td><td class="date">07 November 2026</td><td class="day">Saturday</td><td class="topic-cell">🌱 35. தாவரங்களில் இனப்பெருக்கம் <a href="https://www.google.com/search?q=தாவரங்களில் இனப்பெருக்கம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">111</td><td class="date">09 November 2026</td><td class="day">Monday</td><td class="topic-cell">🧬 36. செல் உயிரியல் <a href="https://www.google.com/search?q=செல் உயிரியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">112</td><td class="date">10 November 2026</td><td class="day">Tuesday</td><td class="topic-cell">🔬 37. திசுக்களின் அமைப்பு <a href="https://www.google.com/search?q=திசுக்களின் அமைப்பு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+
+                <!-- Zoology -->
+                <tr><td colspan="4" class="sub-section">🦁 விலங்கியல் (Vilangiyal)</td></tr>
+                <tr><td class="sno">113</td><td class="date">11 November 2026</td><td class="day">Wednesday</td><td class="topic-cell">🫀 38. மனித உறுப்பு மண்டலம் <a href="https://www.google.com/search?q=மனித உறுப்பு மண்டலம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">114</td><td class="date">12 November 2026</td><td class="day">Thursday</td><td class="topic-cell">🩸 39. இரத்தம் <a href="https://www.google.com/search?q=இரத்தம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">115</td><td class="date">13 November 2026</td><td class="day">Friday</td><td class="topic-cell">🧪 40. நாளமில்லா சுரப்பி மண்டலம் <a href="https://www.google.com/search?q=நாளமில்லா சுரப்பி மண்டலம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">116</td><td class="date">14 November 2026</td><td class="day">Saturday</td><td class="topic-cell">🧬 41. இனப்பெருக்க மண்டலம் <a href="https://www.google.com/search?q=இனப்பெருக்க மண்டலம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">117</td><td class="date">15 November 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly Test</td></tr>
+                <tr><td class="sno">118</td><td class="date">16 November 2026</td><td class="day">Monday</td><td class="topic-cell">🍎 42. ஊட்டச்சத்து <a href="https://www.google.com/search?q=ஊட்டச்சத்து" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">119</td><td class="date">17 November 2026</td><td class="day">Tuesday</td><td class="topic-cell">🧬 43. மரபியல் <a href="https://www.google.com/search?q=மரபியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">120</td><td class="date">18 November 2026</td><td class="day">Wednesday</td><td class="topic-cell">🦠 44. நோய்கள் மற்றும் நோய்த்தடைக்காப்பியல் <a href="https://www.google.com/search?q=நோய்கள் மற்றும் நோய்த்தடைக்காப்பியல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">121</td><td class="date">19 November 2026</td><td class="day">Thursday</td><td class="topic-cell">🦁 45. விலங்கு உலகம் <a href="https://www.google.com/search?q=விலங்கு உலகம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">122</td><td class="date">20 November 2026</td><td class="day">Friday</td><td class="topic-cell">📋 46. இதர குறிப்புகள் <a href="https://www.google.com/search?q=இதர குறிப்புகள்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+
+               <!-- Updated Remaining Schedule -->
+                <tr><td class="sno">123</td><td class="date">21 November 2026</td><td class="day">Saturday</td><td class="topic-cell">🔬 47. Science Revision (Full Revision)</td></tr>
+                <tr><td class="sno">124</td><td class="date">22 November 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                      <tr><td colspan="4" class="sub-section">🔢கணிதம்(MATHS)</td></tr>
+
+                <tr><td class="sno">125</td><td class="date">23 November 2026</td><td class="day">Monday</td><td class="topic-cell">📐 1. சுருக்குதல் <a href="https://www.google.com/search?q=சுருக்குதல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">126</td><td class="date">24 November 2026</td><td class="day">Tuesday</td><td class="topic holiday">🪔 Karthikai Theepam Holiday</td></tr>
+                <tr><td class="sno">127</td><td class="date">25 November 2026</td><td class="day">Wednesday</td><td class="topic-cell">📐 2. சுருக்குதல் (Disscussion) <a href="https://www.google.com/search?q=சுருக்குதல்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">128</td><td class="date">26 November 2026</td><td class="day">Thursday</td><td class="topic-cell">📊 3. விகிதம் மற்றும் விகிதாச்சாரம் <a href="https://www.google.com/search?q=விகிதம் விகிதாச்சாரம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">129</td><td class="date">27 November 2026</td><td class="day">Friday</td><td class="topic-cell">📊 4. விகிதம் மற்றும் விகிதாச்சாரம் (Disscussion) <a href="https://www.google.com/search?q=விகிதம் விகிதாச்சாரம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">130</td><td class="date">28 November 2026</td><td class="day">Saturday</td><td class="topic-cell">🔢 5. மீப்பெரு பொதுக் காரணி (HCF) <a href="https://www.google.com/search?q=மீப்பெரு பொதுக் காரணி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">131</td><td class="date">29 November 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">132</td><td class="date">30 November 2026</td><td class="day">Monday</td><td class="topic-cell">🔢 6. மீப்பெரு பொதுக் காரணி (HCF) (Disscussion) <a href="https://www.google.com/search?q=மீப்பெரு பொதுக் காரணி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">133</td><td class="date">01 December 2026</td><td class="day">Tuesday</td><td class="topic-cell">🔢 7. மீச்சிறு பொது மடங்கு (LCM) <a href="https://www.google.com/search?q=மீச்சிறு பொது மடங்கு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">134</td><td class="date">02 December 2026</td><td class="day">Wednesday</td><td class="topic-cell">🔢 8. மீச்சிறு பொது மடங்கு (LCM) (Disscussion) <a href="https://www.google.com/search?q=மீச்சிறு பொது மடங்கு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">135</td><td class="date">03 December 2026</td><td class="day">Thursday</td><td class="topic-cell">📈 9. சதவீதம் (Percentage) <a href="https://www.google.com/search?q=சதவீதம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">136</td><td class="date">04 December 2026</td><td class="day">Friday</td><td class="topic-cell">📈 10. சதவீதம் (Percentage) (Disscussion) <a href="https://www.google.com/search?q=சதவீதம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">137</td><td class="date">05 December 2026</td><td class="day">Saturday</td><td class="topic-cell">💰 11. தனிவட்டி (Simple Interest) <a href="https://www.google.com/search?q=தனிவட்டி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">138</td><td class="date">06 December 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">139</td><td class="date">07 December 2026</td><td class="day">Monday</td><td class="topic-cell">💰 12. தனிவட்டி (Simple Interest) (Disscussion) <a href="https://www.google.com/search?q=தனிவட்டி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">140</td><td class="date">08 December 2026</td><td class="day">Tuesday</td><td class="topic-cell">💰 13. கூட்டு வட்டி (Compound Interest) <a href="https://www.google.com/search?q=கூட்டு வட்டி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">141</td><td class="date">09 December 2026</td><td class="day">Wednesday</td><td class="topic-cell">💰 14. கூட்டு வட்டி (Compound Interest) (Disscussion) <a href="https://www.google.com/search?q=கூட்டு வட்டி" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">142</td><td class="date">10 December 2026</td><td class="day">Thursday</td><td class="topic-cell">📐 15. பரப்பு (Area) <a href="https://www.google.com/search?q=பரப்பு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">143</td><td class="date">11 December 2026</td><td class="day">Friday</td><td class="topic-cell">📐 16. பரப்பு (Area) (Disscussion) <a href="https://www.google.com/search?q=பரப்பு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">144</td><td class="date">12 December 2026</td><td class="day">Saturday</td><td class="topic-cell">📦 17. கொள்ளளவு (capacity) <a href="https://www.google.com/search?q=கனவளம்" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">145</td><td class="date">13 December 2026</td><td class="day">Sunday</td><td class="topic weekly-test">Weekly tests for 100 marks</td></tr>
+                <tr><td class="sno">146</td><td class="date">14 December 2026</td><td class="day">Monday</td><td class="topic-cell">📦 18. கொள்ளளவு (capacity) (Disscussion) <a href="https://www.google.com/search?q=கொள்ளளவு" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">147</td><td class="date">15 December 2026</td><td class="day">Tuesday</td><td class="topic-cell">⏰ 19. காலம் மற்றும் வேலை (Time and Work) <a href="https://www.google.com/search?q=காலம் மற்றும் வேலை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                <tr><td class="sno">148</td><td class="date">16 December 2026</td><td class="day">Wednesday</td><td class="topic-cell">⏰ 20. காலம் மற்றும் வேலை (Time and Work) (Disscussion) <a href="https://www.google.com/search?q=காலம் மற்றும் வேலை" target="_blank" class="therinthukolvom">THERINTHUKOLVOM</a></td></tr>
+                 <tr><td class="sno">149</td><td class="date">17 December 2026</td><td class="day">Thursday</td><td class="topic holiday">🙇🏼‍♂️ FULL Revision</td></tr>
+                 <tr><td class="sno">150</td><td class="date">18 December 2026</td><td class="day">Friday</td><td class="topic holiday">🙇🏼‍♂️ FULL Revision</td></tr>
+
+               <tr><td class="sno">151</td><td class="date">19 December 2026</td><td class="day">Saturday</td><td class="topic holiday">🙇🏼‍♂️ FULL Revision</td></tr>
+                <tr><td class="sno">152</td><td class="date">20 December 2026</td><td class="day">Sunday</td><td class="topic weekly-test">TNPSC GROUP 4 MAIN EXAM 𝑩𝒆𝒔𝒕 𝒐𝒇 𝒍𝒖𝒄𝒌</td></tr>
+            </tbody>
+        </table>
+  
+        <div class="footer">
+            TNPSC Group 4 Preparation Schedule • Stay Consistent • Success is Within Reach
+        </div>
+    </div>
+</body>
+</html>
